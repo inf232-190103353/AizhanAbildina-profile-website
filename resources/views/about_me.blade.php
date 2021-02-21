@@ -71,7 +71,7 @@ The university was established in 1996, by the initiatives of the president of K
 
 
 
-<script src="script.js"></script>
+<script src={{asset('js/script.js')}}></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

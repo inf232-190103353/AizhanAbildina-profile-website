@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mt profile</title>
+    <title>My profile</title>
 
     <link rel="stylesheet" href={{asset('css/style.css')}}>
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -139,7 +139,7 @@ I was always energetic and lively. While many people feel awkward and strange ma
   <script>
     AOS.init();
   </script>
-<script src="js/script.js"></script>
+<script src={{asset('js/script.js')}}></script>
 
 
 
