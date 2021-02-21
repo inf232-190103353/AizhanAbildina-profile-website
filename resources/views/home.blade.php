@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>5 Beautiful Image Effects With CSS Shapes and Filters</title>
+    <title>Mt profile</title>
 
     <link rel="stylesheet" href={{asset('css/style.css')}}>
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
