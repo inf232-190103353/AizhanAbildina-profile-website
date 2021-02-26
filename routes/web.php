@@ -29,9 +29,23 @@ Route::get('/skills', function () {
     return view('skills');
 });
 
-Route::get('/create', function () {
+Route::get('/post/create', function () {
     $post = new Post;
-    $post->title="Model title";
-    $post->body="Model body";
+    $post->title="Laravel's Market Share";
+    $post->body="The companies using Laravel are most often in information technology services, real estate, and the retail industry.
+
+                 Now, let’s learn some of the technical advantages of Laravel and why it is still the best PHP framework
+                 to use in 2020 for software developers.";
     $post->save();
+});
+
+
+Route::get('/post', function () {
+    $posts = Post :: all();
+    foreach($posts as $post){
+    echo $post -> id.' ) ';
+    echo $post -> title.' ||| ';
+    echo $post -> body;
+    echo"<br>";
+    }
 });
