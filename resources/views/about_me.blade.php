@@ -66,7 +66,7 @@
 The university was established in 1996, by the initiatives of the president of Kazakhstan, Nursultan Nazarbayev, and the former president of Turkey, Suleyman Demirel.</div>
 <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"><img src="univer.jpg" width="80%" style="margin-left: 150px;" ></div>
+     data-aos-duration="2000"><img src="/img/univer.jpg" width="80%" style="margin-left: 150px;" ></div>
 </div>
 
 

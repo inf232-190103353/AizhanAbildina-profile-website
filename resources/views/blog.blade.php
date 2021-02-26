@@ -47,14 +47,14 @@
 		<div style="width: 100%; height: 400px;"><img src="/img/blog2.png" width="100%" height="100%"></div>
 		<div style="padding-left: 20px; padding-right: 20px"><h3>Career Progression of a Web Developer</h3>
 		<h5>Web development is one of those industries that will never die out – that is until the next big thing happens and we start to navigate the stars with our consciousness (yes, someone has watched too many Star Trek episodes).<br> Across the globe, millions of graduates are entering this field to take advantage of the competitive pay, fast-paced environment and flexible work schedules – freelance web developers are enjoying the benefits of an in-demand career, too. While it does provide an advantage to have a knack and interest in web development at a young age, there’s no reason why you can’t enrol in classes and hone your skills. You don’t need to be a software specialist at the tender age of 13 to start a successful career in this industry. It’s true that web development is a highly competitive field that demands the crème de la crème. But, if Silicon Valley is any indication, companies are happy that the talent pool is immense.<br>
-		Your typical web developer is not only required to code, design and edit websites; they’re also tasked with  applications, fiddling around with web design programs through several computer languages and merging data from a wide array of back-end databases and services to enhance the front-end development experience.<br>Generally, web developers – particularly those employed at a firm – will clock in their eight-hour shifts from Monday to Friday. There might even be a couple of evenings and weekends.</h5></div>
+		Your typical web developer is not only required to code, design and edit websites; they’re also tasked with prototyping applications, fiddling around with web design programs through several computer languages and merging data from a wide array of back-end databases and services to enhance the front-end development experience.<br>Generally, web developers – particularly those employed at a firm – will clock in their eight-hour shifts from Monday to Friday. There might even be a couple of evenings and weekends.</h5></div>
 	</div>
 
 </div>
 
 
 
-<script src={{asset('js/script.js')}}></script>
+<script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

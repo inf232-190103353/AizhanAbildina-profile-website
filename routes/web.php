@@ -1,5 +1,5 @@
 <?php
-
+use App\Post;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,4 +27,11 @@ Route::get('/contacts', function () {
 });
 Route::get('/skills', function () {
     return view('skills');
+});
+
+Route::get('/create', function () {
+    $post = new Post;
+    $post->title="Model title";
+    $post->body="Model body";
+    $post->save();
 });
