@@ -2,6 +2,7 @@
 use App\Post;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,7 +46,14 @@ Route::get('/post', function () {
     foreach($posts as $post){
     echo $post -> id.' ) ';
     echo $post -> title.' ||| ';
-    echo $post -> body;
+    echo $post -> body.' ';
+    echo $post -> created_at. ' ';
+    echo $post -> updated_at;
     echo"<br>";
     }
+});
+
+Route::get('/blog', "BlogController@index");
+Route::get('/blog/view', function () {
+    return view("/blogs",["name" => "Aizhan"]);
 });
