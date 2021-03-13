@@ -1,7 +1,7 @@
 <?php
 use App\Post;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +20,7 @@ Route::get('/', function () {
 Route::get('/about_me', function () {
     return view('about_me');
 });
-Route::get('/blog', function () {
-    return view('blog');
-});
+
 Route::get('/contacts', function () {
     return view('contacts');
 });
@@ -41,19 +39,6 @@ Route::get('/post/create', function () {
 });
 
 
-Route::get('/post', function () {
-    $posts = Post :: all();
-    foreach($posts as $post){
-    echo $post -> id.' ) ';
-    echo $post -> title.' ||| ';
-    echo $post -> body.' ';
-    echo $post -> created_at. ' ';
-    echo $post -> updated_at;
-    echo"<br>";
-    }
-});
 
-Route::get('/blog', "BlogController@index");
-Route::get('/blog/view', function () {
-    return view("/blogs",["name" => "Aizhan"]);
-});
+
+Route::get('blog', [BlogController::class, 'index' ]);
