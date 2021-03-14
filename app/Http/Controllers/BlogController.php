@@ -32,7 +32,13 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Post::create([
+        'id' => auth()->id(),
+        'title'=>$request->title,
+        'body'=>$request->body
+        ]);
+        return back();
+
     }
 
     /**
