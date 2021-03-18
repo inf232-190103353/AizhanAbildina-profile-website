@@ -11,12 +11,12 @@
     </div>
     <div class="forms"><form  method = "POST" action="{{ route('add-post')}}" >
         @csrf
-        <input type="text" name="title" placeholder="title" style="margin-bottom:20px"><br>
+        <input class="in" type="text" name="title" placeholder="title" style="margin-bottom:20px"><br>
 
-        <textarea name="body" placeholder="body" style="margin-bottom:20px"
+        <textarea class="in" name="body" placeholder="body" style="margin-bottom:20px"
            rows="12" cols="60" type="text"
            ></textarea><br>
-        <button type="submit">create</button>
+        <button class="in" type="submit">create</button>
     </form>
     </div>
 
@@ -232,6 +232,10 @@
     margin-top:80px ;
     margin-left:35% ;
 
+    }
+    .in{
+    background-color:#ffb8fb;
+    padding : 5px;
     }
 
     </style>
